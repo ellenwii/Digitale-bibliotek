@@ -4,5 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Ellen/Digitale-bibliotek/DiBi-clustering/DiBi-clustering/lucene-core-3.5.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Ellen/Digitale-bibliotek/DiBi-clustering/DiBi-clustering/weka.jar"/>
+	<classpathentry kind="lib" path="D:/testgit/Digitale-bibliotek/DiBi-clustering/DiBi-clustering/lucene-core-3.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/testgit/Digitale-bibliotek/DiBi-clustering/DiBi-clustering/weka.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
