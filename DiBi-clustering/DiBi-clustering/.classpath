@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Program Files/Weka-3-6/weka.jar"/>
-	<classpathentry kind="lib" path="C:/lucene-3.5.0/lucene-core-3.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ellen/Digitale-bibliotek/DiBi-clustering/DiBi-clustering/lucene-core-3.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ellen/Digitale-bibliotek/DiBi-clustering/DiBi-clustering/weka.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
