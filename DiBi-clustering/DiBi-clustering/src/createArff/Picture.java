@@ -25,7 +25,11 @@ public class Picture {
 		setLongitude_s(longitude_s);
 		setUrl_s(url_s);
 		setUser_s(user_s);
-		setDate_taken(date_taken);
+		String tempString = "";
+		for (int i = 0; i<date_taken.length()-1;i++){
+			tempString += date_taken.charAt(i);
+		}
+		setDate_taken(tempString);
 		setTitle_s(title_s);
 		setAttr_tags(attr_tags);
 	}

@@ -16,10 +16,7 @@ import weka.core.Instances;
 public class ReadFiles {
 
 	@SuppressWarnings("null")
-	public static void main(String[] args) {
-		CreateAttributes.generate(ReadFile("D:/testgit/Digitale-bibliotek/DiBi-clustering/SanFRANCISCOTOTData/SanFRANCISCOTOTData/SanFRANCISCOTOTData/Orig/1289900375947_PART1_Solr.xml").get(1));
-		
-	}
+	
 		
 	public static ArrayList<String> ReadFile (String fileName){
 		
@@ -34,6 +31,9 @@ public class ReadFiles {
 			ArrayList<String> objects = new ArrayList<String>();
 			while ((strLine = br.readLine()) != null) {	
 				for (int i = 43; i<strLine.length();i++){
+					if (strLine.charAt(i)=='\''){						
+						continue;
+					}
 					tempString+= strLine.charAt(i);
 					String endString = "";
 					//System.out.println(endString);
