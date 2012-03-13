@@ -61,7 +61,10 @@ public class CreateArff {
 		}
 	}
 	
+<<<<<<< HEAD
 
 	
 
+=======
+>>>>>>> c138d6bb748750503d4b6d0635fd5760252a094e
 }
